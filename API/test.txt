@@ -1,0 +1,25 @@
+test_add_positive (API.study_1123unittest1.TestMathMethod) ... ok
+test_add_two_positive (API.study_1123unittest1.TestMathMethod) ... ok
+test_positive (API.study_1123unittest1.TestMathMethod) ... FAIL
+test_wpositive (API.study_1123unittest1.TestMathMethod) ... FAIL
+
+======================================================================
+FAIL: test_positive (API.study_1123unittest1.TestMathMethod)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\learn\API\study_1123unittest1.py", line 20, in test_positive
+    self.assertEqual(-3,qws)
+AssertionError: -3 != 2
+
+======================================================================
+FAIL: test_wpositive (API.study_1123unittest1.TestMathMethod)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\learn\API\study_1123unittest1.py", line 24, in test_wpositive
+    self.assertEqual(80,qws)
+AssertionError: 80 != 81
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=2)
